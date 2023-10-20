@@ -1312,6 +1312,20 @@ font-weight: 600;
 
 
 @media (max-width: 767px) {
+    .about-one__text, .about-one__points{
+        text-align: right;
+    }
+    .about-two{
+    
+        padding: 55px 0 200px;
+    }
+    .about-two.sec1 , .about-two.bg-gray {
+        padding: 55px 0 0px;
+    }
+    .about-two.sec2 .row{
+flex-direction: column-reverse;
+    }
+   
     .main-header__top {
         display: none;
     }
